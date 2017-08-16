@@ -1,0 +1,2056 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>gaspa</Author>
+  <LastAuthor>Microsoft Office 用户</LastAuthor>
+  <Created>2016-11-17T10:53:04Z</Created>
+  <LastSaved>2016-11-24T03:05:51Z</LastSaved>
+  <Version>15.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <PixelsPerInch>96</PixelsPerInch>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9920</WindowHeight>
+  <WindowWidth>18760</WindowWidth>
+  <WindowTopX>820</WindowTopX>
+  <WindowTopY>460</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="DengXian" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <Font ss:FontName="DengXian" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <Font ss:FontName="DengXian" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#DD0806" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Interior ss:Color="#333333" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#333333" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Borders/>
+   <Font ss:FontName="DengXian" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s27">
+   <Interior ss:Color="#333399" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Foglio1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="205" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="274"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="186"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="175"/>
+   <Column ss:AutoFitWidth="0" ss:Width="187"/>
+   <Column ss:AutoFitWidth="0" ss:Width="178"/>
+   <Column ss:AutoFitWidth="0" ss:Width="143"/>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s22"><Data ss:Type="String">Inglese</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Italiano</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Spanish</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">German</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">French</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">ok = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;ok&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">ok</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;ok&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;ok&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;ok&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">OK = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;OK&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">OK</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;OK&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;OK&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;OK&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Warning = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Warning&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Attenzione</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Atención&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Warnung&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Attention&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Cancel = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Cancel&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Cancella</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Anular&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Abbruch&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Annuler&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Sorry = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Sorry&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Scusa</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;¡Perdona!&quot; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Entschuldigung&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Désolé&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">error = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;error&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">errore</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;error&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fehler&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;erreur&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Error = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Error&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Errore</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Error&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fehler&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Erreur&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">common_unit_miles = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;miles&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">miglia</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;millas&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Meilen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;miles&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">common_unit_mi = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;mi&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">mi</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;mi&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;mi&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;mi&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">common_unit_mile_h = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;MPH&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;MPH&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MPH&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MPH&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MPH&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">common_unit_miles_h = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;MPH&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;MPH&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MPH&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MPH&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MPH&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">common_unit_mph = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;mph&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;mph&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;mph&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;mph&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;mph&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">common_unit_kmph = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;km/h&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;km/h&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;km/h&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;km/h&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;km/h&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">common_unit_minute = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;min&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;min&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;min&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;min&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;min&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="3" ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tabBar_Sport = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Sport&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Sport</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Sport&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Sport&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Sport&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tabBar_Vehicle = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Vehicle&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">NILOX</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Vehículo&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fahrzeug&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Véhicule&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tabBar_More = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;More&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Info</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Info&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Mehr&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Plus&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_lable_title_TRIP = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;TRIP&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;TRIP&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;RECORRIDO&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;STRECKE&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;TRIP&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_lable_title_ODO = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;ODO&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;ODO&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;ODO&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;ODO&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;ODO&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_button_title_Lights = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Lights&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Luci</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Luces&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Licht&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Lumières&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_button_title_Standby = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Standby&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Standby</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Standby&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Standby&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Veille&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_button_title_Mode = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Mode&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Livello</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Modo&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Modus&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Mode&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_button_title_Beginner = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Beginner&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Principiante</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Principiante&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Anfänger&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Débutant&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_button_title_Intermediate = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Intermediate&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Intermedio</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Intermedio&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fortgeschr.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Intermédiaire&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_button_title_Expert = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Expert&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Esperto</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Experto&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Experte&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Expert&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_lable_title_AvgSpeed = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Avg Speed&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Velocità media</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Velocidad media&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Durchschn. Geschw.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Vitesse Moyenne&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_lable_title_CurrentRide = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Current Ride&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Percorso attuale</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Recorrido actual&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Aktuelle Fahrt&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Parcours en cours&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_button_title_StartMyRide = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Start My Ride&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Inizia il calcolo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Iniciar Mi Recorrido&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fahrt beginnen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Commencer le calcul&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_button_title_Stop = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Stop&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Parar&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Stopp&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Stop&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_button_title_Pause = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Pause&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Pausa</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Pausa&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Pause&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Pause&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_button_title_Resume = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Resume&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Riprendi</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Reanudar&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fortsetzen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Résumer&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_connect_hint = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Please connect your DOC.&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Connettere il DOC</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Conecte su DOC.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Bitte DOC verbinden.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Veuillez connecter votre DOC.&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle_alert_message_lowBattery = </Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String"> &quot;The battery is low. Please charge your DOC immediately. Continue to ride at low battery might result i</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Batteria scarica. Ricaricare il DOC</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;La batería está descargada. Cargue su DOC inmediatamente. Seguir viajando con la batería baja puede causar </Font></Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Niedriger Ladezustand. Bitte umgehend Ihr DOC laden. Weiterfahrt mit niedriger Ladung führt evtl. zu</Font></Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;La batterie est faible. Veuillez immédiatement charger votre DOC. Continuer avec une batterie faible peut entraîner </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell ss:Index="2"><Data ss:Type="String">vehicle__alert_message_standby = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;The DOC will now\nenter standby mode. To turn\nit completely off, press the\npower button on the board.&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">DOC Entrerà in modalità stanby. Per spegnerlo completamente premere l'apposito interruttore</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;El DOC entrará ahora\nen modo standby. Para apagarlo\ncompletamente, pulse el\ninterruptor previsto&quot;.</Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC wird nun in den Standby-Modus geschaltet. Zum vollständigen Ausschalten Ein-/Ausschalter am Board drücken.&quot;</Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC entrera\nmaintenant en mode standby. Éteignez-le\nentièrement, appuyez sur le\nbouton power sur le tableau.&quot;</Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Settings&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Impostazioni</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Ajustes&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Einstellungen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String"> &quot;Paramètres&quot;; </Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_renewName = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Change Device's Name&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Cambio nome dispositivo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Cambie el nombre del dispositivo&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Gerätenamen ändern&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Modifier le nom du dispositif&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_renewPassword = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Change Device's Password&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Cambio password dispositivo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Cambie la contraseña del dispositivo&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Gerätepasswort ändern&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Modifier le mot de passe du dispositif&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_switch = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Switch between MPH/KMH&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">impostare MPH/KMH&quot;</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Cambio entre MPH/KMH&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Umschalten zw. MPH/KMH&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Changement entre MPH/KMH&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_setMaxSpeed_mph = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Set the Maximum Speed (mph)&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Impostare velocità Max (mph)&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Configure la Velocidad Máxima (mph)&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Max. Geschw. einstellen (mph)&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Régler la vitesse maximale (mph)&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_setMaxSpeed_kmp = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Set the Maximum Speed (kmp)&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Impostare velocità Max (kmp)&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Configure la Velocidad Máxima (kmp)&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Max. Geschw. einstellen (kmh)&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Régler la vitesse maximale (kmp)&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_drivingForce = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Set Driving Force&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Impostazione forza motrice</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Configuración de la fuerza motriz&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Antriebskraft einstellen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Régler la force motrice&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_sensitivity = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Set Steering Sensitivity&quot;; </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Impostazione sensibilità sterzo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Configuración de la sensibilidad de viraje&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Lenkempfindlichk. einst.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Régler sensibilité direction&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_setShutdownTime = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Set the Auto Shutdown Time&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Impostazione spegnimento automatico</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Configuración del apagado automático&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Auto-Abschaltung einstellen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Régler le temps d’arrêt de la voiture&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_systemInformation = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;System Information of Scooter&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Informazioni di sistema DOC</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Información de sistema del escúter&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Scooter-Systeminformation&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Informations du système DOC&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_systemInfo = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;System Information&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Informazioni di sistema</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Información de sistema&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Systeminformation&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Informations du système&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_selfCheckInformation = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;System Self Check Information&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Informazioni Auto check del sistema</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Información de autocontrol del sistema&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;System-Selbsttest-Informationen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Information d’Auto Check du système&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_selfCheck = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Self Checking&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Auto check</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Autocontrol&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Selbsttest&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Auto check&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String"><Font
+       html:Face="Calibri" html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">settings_label_weak = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Weak&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Debole</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Débil&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Schwach&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Faible&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">settings_label_normal = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Normal&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Normale</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Normal&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Normal&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Normal&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">settings_label_strong = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Strong&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Forte</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fuerte&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Stark&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fort&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">settings_title_renewName_hint = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Enter a new name for the device below&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Inserisci un nuove nome </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Ponga un nuevo nombre para el dispositivo debajo&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Neuen Namen für das Gerät eingeben&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Entrer un nouveau nom pour le dispositif ci-dessous&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Login = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Login&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_SignUP = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Sign UP&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Logout = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Logout&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Name = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Name&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Account_Settings = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Account Settings&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Introduction = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Introduction&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_User_Manual = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;User Manual&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Videos = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Videos&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Problems = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Common Problems&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Service = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Customer Service&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Terms = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Terms &amp; Conditions&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS ITEMS IS NOT PRESENT IN NEW APP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Version = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;App Version&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Versione APP</Data></Cell>
+    <Cell><Data ss:Type="String"><Font html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40">&quot;Versi</Font><Font
+       html:Face="Calibri" html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40">ón APP&quot;;</Font></Data></Cell>
+    <Cell><Data ss:Type="String">&quot;APP Version&quot;;</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Version de l’App&quot;;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">More_title_Share = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Share&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Condivisione</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Compartir&quot;;</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">&quot;Teilen&quot;;</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">&quot;Partager&quot;;</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">status_ok = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;OK&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">OK</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;OK&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;OK&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;OK&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">status_unknow = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;unknow&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Sconosciuto</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;desconocido&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;unbekannt&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;inconnu&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">status_error = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Fault&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Errore</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Error&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fehler&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Par défaut&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">customerSevice_contact = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;How to contact us&quot;; </Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s24"><Data ss:Type="String"> &quot;Cómo ponerse en contacto con nosotros&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Kontakt zu uns&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Comment nous contacter&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">//Terms&amp;Conditions </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">terms_Safety = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Safety Disclaimer&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">terms_Legal = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Legal Agreement&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">terms_Policy = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Privacy Policy&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tracking_title = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Sport&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Sport&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Deporte&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Sport&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Sport&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tracking_Current_Speed = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Speed: &quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Velocità</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Velocidad: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Geschw.: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Vitesse: &quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tracking_AvgSpeed = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Avg Speed: &quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Velocità media</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Velocidad media: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Durchschn. Geschw.: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Vitesse Moyenne: &quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tracking_Distance = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Distance&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Distanza</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distancia&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Entfernung&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distance&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tracking_Time = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Time&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Tempo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Hora&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Zeit&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Heure&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tracking_Battery = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Battery&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Batteria</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Batería&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Batterie&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Batterie&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tracking_Start = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Start&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Start&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Inicio&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Start&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Démarrer&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tracking_Pause = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Pause&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Pausa</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Pausa&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Pause&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Pause&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tracking_Resume = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Resume&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Riprendi</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Reanudar&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fortsetzen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Résumé&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">tracking_Finish = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Finish&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Fin&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Beenden&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Terminer&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">//Activity </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_title = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Activity&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Attività</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Actividad&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Aktivität&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Activité&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_Top_Speed = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Top Speed: &quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Velocità Max</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Velocidad máxima: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Höchstgeschw.: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Vitesse max&#160;: &quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_Distance = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Distance&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Distanza</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distancia&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Entfernung&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distance&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_Time = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Time&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Tempo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Hora&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Zeit&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Heure&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_Average_Speed = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Avg Speed: &quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Velocità media</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Velocidad media: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Durchschn. Geschw.: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Vitesse Moyenne: &quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_Share = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Share&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Condividi</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Compartir&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Teilen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Partager&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_Delete = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Delete&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Cancella</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Borrar&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Löschen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Supprimer&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_Cancel = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Cancel&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Cancella</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Anular&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Abbruch&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Annuler&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_Delete_Activity = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Delete Activity&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Cancella attività</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Eliminar la Actividad&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Aktivität löschen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Supprimer activité&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">//FirstConnectView </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">firstConnectView_title = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Connect to DOC&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Connesione DOC</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Conexión al DOC&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String"> &quot;Mit DOC verbinden&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Connecter au DOC&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">firstConnectView_title_vehicleName1 = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;DOC+OFF ROAD 1&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;DOC+ OFF ROAD 1&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC+OFF ROAD 1&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC+OFF ROAD 1&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC+OFF ROAD 1&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">firstConnectView_title_vehicleName2 = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;DOC+Skateboard 1&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;DOC+ Skateboard 1&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC+Skateboard 1&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC+Skateboard 1&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC+Skateboard 1&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="2"><Data ss:Type="String">firstConnectView_title_vehicleName3 = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;DOC+Fighter 1&quot;; </Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ATTENTION MAY BE THE NAME WILL BE DOC PRO 2 AND NOT DOC FIGHTER</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC+Fighter 1&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC+Fighter 1&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC+Fighter 1&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">firstConnectView_label_detail = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Default Password:000000&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Password standard : 000000</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Contraseña predeterminada:000000&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Standard-Passwort:000000&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Mot de passe par défaut&#160;:000000&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="3" ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Equipment_title = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Select a DOC&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Selezioa il DOC</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Seleccione un DOC&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;DOC auswählen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Sélectionner un DOC&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Equipment_button_title_Scan = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Scan&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Scansione</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Escanear&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Scan&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Numériser&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Equipment_button_title_Scanning = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Scanning&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Scansione in corso</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Escaneando&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Scannen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Numérisation&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">bluetooth_alert_turnOn = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Please turn on Bluetooth.&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Accendere il Bluetooth</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String"> &quot;Active el Bluetooth.&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Bitte Bluetooth einschalten.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Veuillez allumer votre Bluetooth.&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">bluetooth_alert_connected = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Connected&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Connesso</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Conectado&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Verbunden&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Connecté&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">bluetooth_alert_disconnected = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Disconnected&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Disconnesso</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Desconectado&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Getrennt&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Déconnecté&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String"><Font
+       html:Face="Calibri" html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">bluetooth_alert_connect_password_size = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Please enter \&quot;000000\&quot;.&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Inserire 000000</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Ponga \&quot;000000\&quot;.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Bitte \&quot;000000\&quot; eingeben.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Veuillez insérer \&quot;000000\&quot;.&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="2"><Data ss:Type="String">bluetooth_alert_connect_error1_message = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Wrong password. Please\nre-enter your password&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Password errata, inserire nuovamente</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Contraseña incorrecta. Introduzca\nde nuevo su contraseña&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Passwort falsch. Bitte Passwort neu eingeben&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Mot de passe erroné. Veuillez\nréinsérer votre mot de passe&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">bluetooth_alert_connect_error3_message = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Please confirm you are connecting to your DOC.&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Confermare la connessione con il DOC</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Confirme que se conectan a su DOC.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Bitte Verbindung mit Ihrem DOC bestätigen.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Veuillez confirmer que vous êtes connecté votre DOC.&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Me_label_title_TotalDistance = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Total Distance&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Distanza totale</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distancia total&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Gesamtstrecke&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distance totale&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Me_label_title_TopSpeed = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Top Speed&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Velocità Top</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Velocidad Máxima&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Höchstgeschw.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Vitesse max.&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Me_label_title_ThisWeek = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;This Week&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Questa settimana</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Esta semana&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Diese Woche&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Cette semaine&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Me_label_title_Account = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Account&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Account</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Cuenta&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Konto&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Compte&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Me_label_title_Activities = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Activities&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Attività</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Actividades&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Aktivitäten&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Activités&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Me_label_title_PersonalRecords = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Personal Records&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">I tuoi record</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Marcas Personales&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Persönliche Daten.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Mes enregistrements&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Account_title = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Account&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Account</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Cuenta&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Konto&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Compte&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Account_label_title_changeAccountPhoto = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Change Account Photo&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Cambio foto dell'account</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Cambie la foto de la cuenta&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Kontobild ändern&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Modification compte photo&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Account_label_title_Name = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Name&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Nome</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Nombre&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Name&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Nom&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Account_label_title_Email = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Email&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Email</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Email&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;E-Mail&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;E-mail&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Account_label_title_Password = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Password&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Password</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Contraseña&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Passwort&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MOT DE PASSE&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Account_label_title_LogOut = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Log Out&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Logout</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Finalizar sesión&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Logout&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Déconnexion&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Account_label_title_ = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;&quot;; </Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String"><Font
+       html:Face="Calibri" html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> &quot;&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Account_actionSheet_title_camera = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Open the camera&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Accedi alla fotocamera</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Abre la cámara&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Kamera öffnen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Allumer la caméra&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s27">
+    <Cell ss:Index="2" ss:StyleID="s16"><Data ss:Type="String">Account_actionSheet_title_photoAlbums = </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> &quot;From photo albums&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Album fotografico</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Desde los álbumes de fotos&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Aus Fotoalben&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Albums photo&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">RenewAccountPassword_title = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Password&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Password&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Contraseña&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Passwort&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MOT DE PASSE&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">RenewAccountPassword_button_Save = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Save&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Salva</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Guardar&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Speichern&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Enregistrer&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">RenewAccountPassword_label_title_oldPassword = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Please enter your old password&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Inserire la vecchia password</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Ponga su contraseña antigua&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Bitte altes Passwort eingeben&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Veuillez insérer votre ancien mot de passe&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">RenewAccountPassword_label_title_newPassword = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Please enter your new password&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Inserire la nuova password</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Ponga su nueva contraseña&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Bitte neues Passwort eingeben&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Veuillez insérer votre nouveau mot de passe&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">RenewAccountPassword_label_title_confirm = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Please re-enter your new password&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Inserire nuovamente la password</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Ponga de nuevo su nueva contraseña&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Bitte neues Passwort bestätigen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Veuillez réinsérer votre nouveau mot de passe&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="2"><Data ss:Type="String">RenewAccountPassword_alert_message_wrongOldPassword = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Old password entered incorrectly.\nRe-enter your old password.&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Vecchia Password scorretta. Inserire nuovamente la password</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Contraseña antigua introducida incorrectamente.\nVuelva a poner su contraseña antigua.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Altes Passwort falsch. Bitte erneut eingeben.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Ancien mot de passe inséré incorrect.\nRéinsérer votre ancien mot de passe.&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="2"><Data ss:Type="String">RenewAccountPassword_alert_message_confirmNewPasswordIncorrectly = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Password confirmation entered incorrectly. Both new password entries match</Data></Cell>
+    <Cell><Data ss:Type="String">Errore. Le password inserite non corrispondono.</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Confirmación de contraseña incorrecta. Ambas entradas de la nueva contraseña coinciden</Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Passwortbestätigung falsch. Beide neuen Passortangaben korrekt</Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Confirmation incorrecte du mot de passe inséré. Les deux mots de passe correspondent</Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">RenewAccountPassword_alert_message_PasswordSuccessfullyChanged = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Password successfully changed.&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Password cambiata correttamente.</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Se ha cambiado correctamente la contraseña.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Passwort erfolgreich geändert.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Mot de passe modifiés avec succès&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activitys_title = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Activities&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Attività</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Actividades&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String"> &quot;Aktivitäten&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Activités&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_lab_topSpeed = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;top speed&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Velocità Top</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;velocidad máxima&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Höchstgeschw.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;vitesse max.&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="3" ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_lab_ = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;&quot;; </Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String"><Font
+       html:Face="Calibri" html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> &quot;&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_lab_Save = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Save&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Sala </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Guardar&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Speichern&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Enregistrer&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_lab_Delete = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Delete&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Cancella</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Borrar&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Löschen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Supprimer&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_lab_Mile = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Distance&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Distanza</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distancia&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Entfernung&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distance&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_lab_Time = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Time&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Tempo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Hora&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Zeit&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Heure&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_lab_Mile_H = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;MPH&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;MPH&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MPH&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MPH&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MPH&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Activity_lab_DeleteActivity = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Delete Activity&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Cancella attività</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Eliminar la Actividad&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Aktivität löschen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Supprimer activité&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">PersonalRecords_title = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Personal Records&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">I miei Record</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Marcas Personales&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Persönliche Daten.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Mes enregistrements&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">PersonalRecords_lab_TopSpeed = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Top Speed&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Velocità Top</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Velocidad Máxima&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Höchstgeschw.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Vitesse max.&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">PersonalRecords_lab_AverageSpeed = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Average Speed&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Velocità media</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Velocidad media&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Durchschn. Geschw.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Vitesse moyenne&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">PersonalRecords_lab_LongestRideDistance = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Longest Ride Distance&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Percorso con distanza massima </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distancia del recorrido más largo&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Längste Fahrtstrecke&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distance de parcours la plus longue&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">PersonalRecords_lab_AverageRideDistance = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Average Ride Distance&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Distanza media compiuta</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distancia del recorrido medio&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Durchschn. Fahrtstrecke&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Distance de parcours moyenne&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">PersonalRecords_lab_LongestRideTime = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Longest Ride Time&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Percorso con tempo massimo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Tiempo del recorrido más largo&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Längste Fahrtzeit&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Temps de parcours le plus long&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">PersonalRecords_lab_AverageRideTime = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Average Ride Time&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Tempo medio </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Tiempo del recorrido medio&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Durchschn. Fahrtzeit&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Temps de parcours moyen&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">login_lable_Name = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Full Name: &quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Nome completo</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Nombre completo: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String"> &quot;Vollst. Name: &quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Nom complet&#160;: &quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">login_lable_Email = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Email: &quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Email: &quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Email: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;E-Mail: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;E-mail&#160;: &quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">login_lable_Password = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Password: &quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Password: &quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Contraseña: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Passwort: &quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;MOT DE PASSE: &quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">login_lable_Login = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Login&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Login&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Acceso&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Login&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Connexion&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">login_lable_CreateAccount = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Create an Account&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Creare un account</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Crear una cuenta&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Konto erstellen&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Créer un profil&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">login_lable_LoginWith = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Login with&quot;; </Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String"><Font
+       html:Face="Calibri" html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> &quot;Acceso con&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Login mit&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Connexion avec&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">login_lable_SignUp = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Sign Up&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">login_ForgotPassword = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Forgot you password?&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">login_lable_LoginInWithFackbook = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Login with Facebook&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">login_lable_SighUpWithFackbook = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Sigh Up with Facebook&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1" ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">resetPassWord_Send = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Send&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">resetPassWord_PasswordRecovery = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Password Recovery&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">guide_title1 = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Turn on the scooter&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Accendere il DOC</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> &quot;Encienda el DOC&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> &quot;DOC einschalten&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> &quot;Allumer le DOC&quot;; </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">guide_title2 = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Turn on the Bluetooth&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Accendere il dispositivo Bluetooth</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Active el Bluetooth&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Bluetooth einschalten&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Allumer le bluetooth&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">guide_title3 = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Step 3&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Step 3&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Paso 3&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Schritt 3&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Étape 3&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">guide_title4 = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Step 4&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Step 4&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Paso 4&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Schritt 4&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Étape 4&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">guide_title5 = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Safety Warning&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Indicazioni di sicurezza</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Advertencia de seguridad&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Sicherheitswarnung&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Avertissement de sécurité&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="2"><Data ss:Type="String">guide_content1 = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Please turn on the Self Balanceing Scooter.&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Accendere il DOC</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> &quot;Active el Autobalanceo del DOC.&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> &quot;Bitte selbstbalancierenden DOC einsch.&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> &quot;Veuillez allumer le DOC &quot;; </Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:Index="2"><Data ss:Type="String">guide_content2 = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Please turn on the Bluetooth of the smartphone. Then scan and connect your DOC.&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Accendere il bluetooth sullo Smartphone. Efftuare una scansione e connessione del tuo DOC</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> &quot;Active el Bluetooth del smartphone. A continuación, escanee y conecte su DOC.&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> &quot;Bitte Bluetooth am Smartphone einsch. Anschl. DOC einsch. und verbinden.&quot;; </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Veuillez allumer le bluetooth du smartphone. Puis numériser et connecter votre scooter.&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">guide_button_Login = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Login&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">guide_button_SignUp = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Sign Up&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="2"><Data ss:Type="String">guide_button_Skip = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Skip&quot;; </Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">THIS FIELD ARE NOT IN NEW APP</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s20">
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Network_Error = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Network Error&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Errore di connessione</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Error de Red&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Netzwerkfehler&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Erreur de réseau&quot;; </Font></Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:Index="2"><Data ss:Type="String">Network_Error_Message = </Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;Could not load due to a netword connectivity or server issue. Please try again.&quot;; </Data></Cell>
+    <Cell><Data ss:Type="String">Errore di connessione, riprovare</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;No se pudo cargar debido a conectividad de red o de servidor. Inténtelo de nuevo.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Laden nicht möglich. Netzwerk- oder Serverproblem. Bitte erneut versuchen.&quot;; </Font></Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"><Font html:Face="Calibri"
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> &quot;Impossible de charger, problème de serveur ou de connectivité au réseau. Veuillez réessayer.&quot;; </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String"> </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>92</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Foglio2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Foglio3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <TopRowVisible>69</TopRowVisible>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

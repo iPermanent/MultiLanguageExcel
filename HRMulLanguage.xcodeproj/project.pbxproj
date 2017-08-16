@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6377A7CC3722A2826BD720F8 /* libPods-HRMulLanguage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C7F3C57C2EBDA4306AB602 /* libPods-HRMulLanguage.a */; };
+		7E1DC1BF1E010F4A0044872B /* languages.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7E1DC1BE1E010F4A0044872B /* languages.xml */; };
+		7E1DC1C41E01759C0044872B /* languages.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 7E1DC1C31E01759C0044872B /* languages.xlsx */; };
+		7E432B6D1DFFD97200EF0BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E432B6C1DFFD97200EF0BB1 /* main.m */; };
+		7E432B701DFFD97200EF0BB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E432B6F1DFFD97200EF0BB1 /* AppDelegate.m */; };
+		7E432B731DFFD97200EF0BB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E432B721DFFD97200EF0BB1 /* ViewController.m */; };
+		7E432B761DFFD97200EF0BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E432B741DFFD97200EF0BB1 /* Main.storyboard */; };
+		7E432B781DFFD97200EF0BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E432B771DFFD97200EF0BB1 /* Assets.xcassets */; };
+		7E432B7B1DFFD97200EF0BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E432B791DFFD97200EF0BB1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18C2DA1D7CF297C95411E4A0 /* Pods-HRMulLanguage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRMulLanguage.release.xcconfig"; path = "Pods/Target Support Files/Pods-HRMulLanguage/Pods-HRMulLanguage.release.xcconfig"; sourceTree = "<group>"; };
+		65C7F3C57C2EBDA4306AB602 /* libPods-HRMulLanguage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HRMulLanguage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1DC1BE1E010F4A0044872B /* languages.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = languages.xml; sourceTree = SOURCE_ROOT; };
+		7E1DC1C31E01759C0044872B /* languages.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = languages.xlsx; sourceTree = "<group>"; };
+		7E432B681DFFD97200EF0BB1 /* HRMulLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRMulLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E432B6C1DFFD97200EF0BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E432B6E1DFFD97200EF0BB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E432B6F1DFFD97200EF0BB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E432B711DFFD97200EF0BB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E432B721DFFD97200EF0BB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E432B751DFFD97200EF0BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E432B771DFFD97200EF0BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E432B7A1DFFD97200EF0BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E432B7C1DFFD97200EF0BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C721529A6F2A691A143E8B6F /* Pods-HRMulLanguage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRMulLanguage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HRMulLanguage/Pods-HRMulLanguage.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E432B651DFFD97200EF0BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6377A7CC3722A2826BD720F8 /* libPods-HRMulLanguage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56B53AE42C7DCA3BC7230EFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C721529A6F2A691A143E8B6F /* Pods-HRMulLanguage.debug.xcconfig */,
+				18C2DA1D7CF297C95411E4A0 /* Pods-HRMulLanguage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E432B5F1DFFD97100EF0BB1 = {
+			isa = PBXGroup;
+			children = (
+				7E432B6A1DFFD97200EF0BB1 /* HRMulLanguage */,
+				7E432B691DFFD97200EF0BB1 /* Products */,
+				56B53AE42C7DCA3BC7230EFD /* Pods */,
+				CC4D0DC5A6C6E1A1CF60978C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E432B691DFFD97200EF0BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E432B681DFFD97200EF0BB1 /* HRMulLanguage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E432B6A1DFFD97200EF0BB1 /* HRMulLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				7E432B6E1DFFD97200EF0BB1 /* AppDelegate.h */,
+				7E432B6F1DFFD97200EF0BB1 /* AppDelegate.m */,
+				7E432B711DFFD97200EF0BB1 /* ViewController.h */,
+				7E432B721DFFD97200EF0BB1 /* ViewController.m */,
+				7E432B741DFFD97200EF0BB1 /* Main.storyboard */,
+				7E432B771DFFD97200EF0BB1 /* Assets.xcassets */,
+				7E432B791DFFD97200EF0BB1 /* LaunchScreen.storyboard */,
+				7E432B7C1DFFD97200EF0BB1 /* Info.plist */,
+				7E432B6B1DFFD97200EF0BB1 /* Supporting Files */,
+			);
+			path = HRMulLanguage;
+			sourceTree = "<group>";
+		};
+		7E432B6B1DFFD97200EF0BB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E1DC1C31E01759C0044872B /* languages.xlsx */,
+				7E1DC1BE1E010F4A0044872B /* languages.xml */,
+				7E432B6C1DFFD97200EF0BB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC4D0DC5A6C6E1A1CF60978C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65C7F3C57C2EBDA4306AB602 /* libPods-HRMulLanguage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E432B671DFFD97200EF0BB1 /* HRMulLanguage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E432B7F1DFFD97200EF0BB1 /* Build configuration list for PBXNativeTarget "HRMulLanguage" */;
+			buildPhases = (
+				817E3D7E8EB6CCB44BD7769D /* [CP] Check Pods Manifest.lock */,
+				7E432B641DFFD97200EF0BB1 /* Sources */,
+				7E432B651DFFD97200EF0BB1 /* Frameworks */,
+				7E432B661DFFD97200EF0BB1 /* Resources */,
+				E471C63D4C1BEB12113BC57D /* [CP] Embed Pods Frameworks */,
+				17BFB80AAB92C16F9BAB9E1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRMulLanguage;
+			productName = HRMulLanguage;
+			productReference = 7E432B681DFFD97200EF0BB1 /* HRMulLanguage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E432B601DFFD97100EF0BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ZhangHeng;
+				TargetAttributes = {
+					7E432B671DFFD97200EF0BB1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4BKH4N4V2S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7E432B631DFFD97100EF0BB1 /* Build configuration list for PBXProject "HRMulLanguage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E432B5F1DFFD97100EF0BB1;
+			productRefGroup = 7E432B691DFFD97200EF0BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E432B671DFFD97200EF0BB1 /* HRMulLanguage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E432B661DFFD97200EF0BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1DC1C41E01759C0044872B /* languages.xlsx in Resources */,
+				7E432B7B1DFFD97200EF0BB1 /* LaunchScreen.storyboard in Resources */,
+				7E432B781DFFD97200EF0BB1 /* Assets.xcassets in Resources */,
+				7E432B761DFFD97200EF0BB1 /* Main.storyboard in Resources */,
+				7E1DC1BF1E010F4A0044872B /* languages.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17BFB80AAB92C16F9BAB9E1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HRMulLanguage/Pods-HRMulLanguage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817E3D7E8EB6CCB44BD7769D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E471C63D4C1BEB12113BC57D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HRMulLanguage/Pods-HRMulLanguage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E432B641DFFD97200EF0BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E432B731DFFD97200EF0BB1 /* ViewController.m in Sources */,
+				7E432B701DFFD97200EF0BB1 /* AppDelegate.m in Sources */,
+				7E432B6D1DFFD97200EF0BB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E432B741DFFD97200EF0BB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E432B751DFFD97200EF0BB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E432B791DFFD97200EF0BB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E432B7A1DFFD97200EF0BB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E432B7D1DFFD97200EF0BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E432B7E1DFFD97200EF0BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E432B801DFFD97200EF0BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C721529A6F2A691A143E8B6F /* Pods-HRMulLanguage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BKH4N4V2S;
+				INFOPLIST_FILE = HRMulLanguage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanxiang.HRMulLanguage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E432B811DFFD97200EF0BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C2DA1D7CF297C95411E4A0 /* Pods-HRMulLanguage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BKH4N4V2S;
+				INFOPLIST_FILE = HRMulLanguage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanxiang.HRMulLanguage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E432B631DFFD97100EF0BB1 /* Build configuration list for PBXProject "HRMulLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E432B7D1DFFD97200EF0BB1 /* Debug */,
+				7E432B7E1DFFD97200EF0BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E432B7F1DFFD97200EF0BB1 /* Build configuration list for PBXNativeTarget "HRMulLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E432B801DFFD97200EF0BB1 /* Debug */,
+				7E432B811DFFD97200EF0BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E432B601DFFD97100EF0BB1 /* Project object */;
+}
