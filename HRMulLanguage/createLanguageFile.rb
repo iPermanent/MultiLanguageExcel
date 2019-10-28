@@ -31,7 +31,7 @@ while $i < $num  do
                 value = ""
             end
             value = value.gsub("\"","")
-            rowValue = "\'" + key + "\' = \'" + value + "\'" + "\n"
+            rowValue = "\'" + key + "\' = \'" + value + "\'" + ";\n"
             fileContent = fileContent + rowValue
         end    
     end
